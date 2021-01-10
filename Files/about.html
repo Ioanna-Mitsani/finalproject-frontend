@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mobile-first.css">
+    <script src="https://kit.fontawesome.com/8c629bec5a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="body">
+    <header>
+        <!--Topbar with info-->
+        <div id="topbar" class="flex">
+             <span id="smtel" class="topbar hidden-mobile">   
+                 <p>Follow us: <i class="fab fa-facebook-square fa-lg"> </i> <i class="fab fa-instagram-square fa-lg"> </i></p>
+                 <p id="tel"><i class="fas fa-phone-alt"></i> 210 9356865</p>  
+             </span>
+             <span id="location" class="topbar">
+                 <p><i class="fas fa-map-marker-alt"></i> Κωνσταντίνου Παλαιολόγου 36, Νέα Σμύρνη</p>
+             </span>
+        </div>
+        <!--Navigation Bar-->
+        <nav class="navbar flex">
+            <i class="fas fa-bars fa-2x hidden-desktop"></i>
+            <img id="logo" src="images/nikos-logo-270x270.png" alt="Nikos Logo"/>
+            <a href="#"><i class="fas fa-phone-alt fa-2x hidden-desktop"></i></a>
+            <ul id="main-menu" class="flex hidden-mobile">  
+             <li><a href="#" class="menu-item">ΜΕΝΟΥ</a></li>
+             <li><a href="#" class="menu-item">Η ΙΣΤΟΡΙΑ ΜΑΣ</a></li>
+             <li><a href="#" class="menu-item">PHOTO GALLERY</a></li>
+             <li><a href="#" class="menu-item">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+            </ul>
+        </nav>
+     </header>
+    
+     <main>
+        <section id="about" class="flex-col grid-container">
+            <img id="bw1" src="images/bw1.jpg" alt="about1"/>
+            <div id="grid-item-1" class="text-wrapper">
+                <h1 class="section-header">Η Ιστορία μας</h1>
+                <p class="par-fwlight spaced-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repellendus. Nesciunt vel adipisci id vero. Adipisci ipsum unde rerum quam minima vero eos ex deserunt laboriosam repellendus! Facilis, eaque delectus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex et libero atque repellat ipsa fugiat amet necessitatibus perferendis, corporis tempore unde corrupti non voluptatem quos quas dolor blanditiis alias?
+                </p>
+            </div>
+            <img id="bw2" src="images/bw2.jpg" alt="about1"/>
+            <div id="grid-item-2" class="text-wrapper">
+                <p class="par-fwlight spaced-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repellendus. Nesciunt vel adipisci id vero. Adipisci ipsum unde rerum quam minima vero eos ex deserunt laboriosam repellendus! Facilis, eaque delectus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ex et libero atque repellat ipsa fugiat amet necessitatibus perferendis, corporis tempore unde corrupti non voluptatem quos quas dolor blanditiis alias?
+                </p>
+            </div>
+        </section>
+        <section id="authors" class="flex-col">
+            <h1 class="section-header">Έχουν μιλήσει για εμάς</h1>
+            <hr>
+            <ul class="flex">
+                <li class="flex-col">
+                    <img src="images/persona250x300.jpg"/>
+                    <div class="author-info">
+                        <h2>Lorem, ipsum.</h2>
+                        <p class="par-fwlight">Lorem ipsum dolor sit amet.</p>
+                        <a class="see-more" href="#">Περισσότερα...</a>
+                    </div>
+                </li>
+                <li class="flex-col">
+                    <img src="images/persona250x300.jpg"/>
+                    <div class="author-info">
+                        <h2>Lorem, ipsum.</h2>
+                        <p class="par-fwlight">Lorem ipsum dolor sit amet.</p>
+                        <a class="see-more" href="#">Περισσότερα...</a>
+                    </div>
+                </li>
+                <li class="flex-col">
+                    <img src="images/persona250x300.jpg"/>
+                    <div class="author-info">
+                        <h2>Lorem, ipsum.</h2>
+                        <p class="par-fwlight">Lorem ipsum dolor sit amet.</p>
+                        <a class="see-more" href="#">Περισσότερα...</a>
+                    </div>
+                </li>
+                <li class="flex-col">
+                    <img src="images/persona250x300.jpg"/>
+                    <div class="author-info">
+                        <h2>Lorem, ipsum.</h2>
+                        <p class="par-fwlight">Lorem ipsum dolor sit amet.</p>
+                        <a class="see-more" href="#">Περισσότερα...</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+     </main>
+     
+
+     <footer class="flex-col">
+        <!--Useful info & links-->
+        <section id="sec1" class="flex">
+            <div id="legal" class="info flex-col hidden-mobile">
+                <h2>Χρήσιμες Πληροφορίες</h2>
+                <hr>
+                <ul class="links">
+                    <li><a href="#">Όροι Χρήσης & Προϋποθέσεις</a></li>
+                    <li><a href="#">Πολιτική Απορρήτου</a></li>
+                    <li><a href="#">Πολιτική Cookies</a></li>
+                </ul>
+            </div>
+            <div id="sitemap" class="info flex-col hidden-mobile">
+                <h2>Sitemap</h2>
+                <hr>
+                <ul class="links">
+                    <li><a href="#">Μενού</a></li>
+                    <li><a href="#">Η Ιστορία μας</a></li>
+                    <li><a href="#">Photo Gallery</a></li>
+                    <li><a href="#">Επικοινωνία</a></li>
+                </ul>
+            </div>
+           <div id="store-info" class="info flex-col">
+                    <div id="f-address">
+                        <h2>Διεύθυνση:</h2>
+                        <hr>
+                        <span>Κωνσταντίνου Παλαιολόγου 36, Νέα Σμύρνη</span>
+                    </div>
+                    <div id="f-hours">
+                        <h2>Ωράριο Λειτουργίας:</h2>
+                        <hr>
+                        <span>Δευτέρα - Παρασκευή</span>
+                        <span>Σάββατο - Κυριακή</span>
+                    </div>
+                    <div id="f-contact">
+                        <h2>Επικοινωνία:</h2>
+                        <hr>
+                        <span>Τηλέφωνο</span>
+                        <span>E-mail</span>
+                    </div>
+                    <div id="f-sm" class="hidden-desktop">
+                        <h2>Follow us on social media:</h2> <!--Να βάλω τα icons-->
+                        <hr>
+                    </div>
+            </div>
+            <div id="sm" class="info flex-col hidden-mobile">
+                <h2>Follow us on social media:</h2> <!--Να βάλω τα icons-->
+                <hr>
+            </div>
+        </section>
+        <!--Copyright section-->
+    <section id="bottombar" class="flex">
+        <span>Copyright 2020</span> <!--Να βάλω το C character κλπ-->
+    </section>
+    <footer>
+</body>
+</html>

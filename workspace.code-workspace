@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../practical ses html"
+		},
+		{
+			"path": "Files"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Files"
+	}
+}

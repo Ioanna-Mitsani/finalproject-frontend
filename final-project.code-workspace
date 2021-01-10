@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../practical ses html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "[Final Project] Web Design & Front-End Dev"
+	}
+}
